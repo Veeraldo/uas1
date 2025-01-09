@@ -9,7 +9,7 @@ use Illuminate\Support\Str;
 
 class Game extends Model
 {
-    //
+    
     use HasFactory, SoftDeletes;
 
     protected $fillable = [
