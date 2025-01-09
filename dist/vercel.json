@@ -5,26 +5,26 @@
         "api/index.php": { "runtime": "vercel-php@0.6.0" }
     },
     "routes": [
-        {
-            "src": "/build/(.*)",
-            "dest": "/public/build/"
-        },
-        {
-            "src": "/css/(.*)",
-            "dest": "/public/css/"
-        },
-        {
-            "src": "/images/(.*)",
-            "dest": "/public/images/"
-        },
-        {
-            "src": "/js/(.*)",
-            "dest": "/public/js/"
-        },
-        {
-            "src": "/vendors/(.*)",
-            "dest": "/public/vendors/"
-        },
+        // {
+        //     "src": "/build/(.*)",
+        //     "dest": "/public/build/"
+        // },
+        // {
+        //     "src": "/css/(.*)",
+        //     "dest": "/public/css/"
+        // },
+        // {
+        //     "src": "/images/(.*)",
+        //     "dest": "/public/images/"
+        // },
+        // {
+        //     "src": "/js/(.*)",
+        //     "dest": "/public/js/"
+        // },
+        // {
+        //     "src": "/vendors/(.*)",
+        //     "dest": "/public/vendors/"
+        // },
         {
             "src": "/(.*)",
             "dest": "/api/index.php"
