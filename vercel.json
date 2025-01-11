@@ -11,9 +11,11 @@
             "dest": "/api/index.php"
         }
     ],
-    "rewrites": [
-        {"source": "/(.*)", "destination": "/"}
-    ],
+    
+        "rewrites": [
+          { "source": "/favicon.ico", "destination": "/public/favicon.ico" }
+        ],
+       
     
     "env": {
     "DB_CONNECTION": "mysql",
